@@ -1,0 +1,6 @@
+{
+  "name": "Northin Hotel Banquets",
+  "description": "Premium luxury banquet event space explorer, directory, and event booking inquiry system for weddings, corporate meetings, and private celebrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
