@@ -8,6 +8,7 @@ import Corporate from './pages/Corporate';
 import GalleryContact from './pages/GalleryContact';
 import Booking from './pages/Booking';
 import { MessageSquare, Calendar, Sparkles, Heart, Bell, Check, Info, PhoneCall } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('home');
@@ -173,6 +174,7 @@ export default function App() {
           <span>Book Venue</span>
         </button>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
